@@ -1,15 +1,13 @@
 import json
 import logging
-from ai_rmp_api.handler import TokenByTokenHandler
 import uvicorn
-
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
-import uvicorn
 from pydantic import BaseModel
 
+from ai_rmp_api.handler import TokenByTokenHandler
 from ai_rmp_api.tools import tools
 from langchain import hub
 from langchain.agents import AgentExecutor, create_tool_calling_agent

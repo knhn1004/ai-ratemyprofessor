@@ -1,5 +1,5 @@
-import ratemyprofessor
 from typing import Dict, Any
+import ratemyprofessor
 import groq
 
 

@@ -2,9 +2,9 @@ from langchain.tools import StructuredTool
 from ai_rmp_api.rmp_functions import (
     check_school_exists,
     check_professor_exists,
-    list_professor_classes,
-    get_professor_info,
     get_full_school_name,
+    get_professor_info,
+    list_professor_classes,
     search_professors_by_name,
 )
 
