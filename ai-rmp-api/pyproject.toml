@@ -21,4 +21,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-start = "ai_rmp_api.main:main"
+server = "ai_rmp_api.main:start"
